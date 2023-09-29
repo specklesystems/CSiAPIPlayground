@@ -13,8 +13,9 @@ namespace CSiAPIPlayground
 
     public void Play()
     {
-      // do something here
-      sapModel.CoordSys.SetCoordSys("newSystem", 0, 0, 0, 45, 0, 0);
+      // do something with the sapModel here.
+      // note that the object is called sapModel, but this is just copying the CSi convention.
+      // this object is valid for any other CSi program such as ETABS.
     }
   }
 }
